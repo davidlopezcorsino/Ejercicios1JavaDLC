@@ -1,6 +1,7 @@
 const data = ["hola", 2, 5, "adios"];
 console.log("numero mayor",data[2]);
-
+const mayor = data[1]>data[2];
+console.log("el numero 2 es mayor que el 5",mayor)
 const suma = data[1] + data[2];
 console.log("suma",suma);
 const resta = data[2] - data[1];
