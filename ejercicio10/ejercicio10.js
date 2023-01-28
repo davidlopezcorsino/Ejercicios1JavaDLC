@@ -4,7 +4,7 @@ function esPar(numero) {
     const resultado = entero%2;
 return resultado;
 }
-const valor = esPar(entero);
+const valor = esPar();
 if(valor==0){
     alert("es par")}
 else{
